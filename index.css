@@ -1,0 +1,237 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background: #eff3ff;
+  font-family:'muli';
+}
+.container{
+  display: flex;
+  background: white;
+  border-radius: 10px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:700px;
+  height: 320px;
+}
+img{
+  width:330px;
+  height:320px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  object-fit: cover;
+}
+.text-cont{
+  margin:50px auto;
+  padding:12px 20px;
+  font-size:13px;
+}
+.content{
+  margin-top:70px;
+}
+
+.bar-1{
+  padding:0px 20px;
+  width:20px;
+  height: 20px;
+}
+.btn-container{
+  width:700px;
+  margin:0 auto;
+  position: absolute;
+  top:80%;
+  left:55%;
+  transform: translate(-60%,-60%);
+
+}
+.cont{
+  display: flex;
+  flex-wrap:wrap;
+  margin-top:20px;
+  
+}
+.weebly{
+  background: #f9faff;
+  padding:12px 40px;
+  margin:14px 10px;
+  border-radius: 3px;
+  
+}
+.tesla{
+  background: #f9faff;
+  padding:10px 40px;
+  margin:14px 0px;
+  border-radius: 3px;
+  
+}
+.tnw{
+  background: #ffff;
+  padding:12px 40px;
+  border-radius: 3px;
+  margin-top: 10px;
+  height:50px;
+  box-shadow: 0 2px 3px 0  rgba(0,0,0,0.2);
+}
+.cpanel{
+  background: #f9faff;
+  padding:10px 40px;
+  margin:14px 0px;
+  border-radius: 3px;
+}
+.view{
+  background: black;
+  color:white;
+  padding:5px 40px;
+  margin:16px 10px;
+  text-align: center;
+  border-radius: 3px;
+  height:45px;
+  cursor:pointer;
+}
+.arrow{
+  background: #fff;
+  height:2px;
+  width:20px;
+  border-radius: 4px;
+  position: absolute;
+  top:56px;
+  right:67px;
+  
+}
+.arrow:after{
+  display:inline-block;
+  content:"";
+  width:12px;
+  height:2px;
+  background: #ffff;
+  transform: rotate(45deg);
+  position:absolute;
+  right:-1px;
+  bottom:4px;
+}
+.arrow:before{
+  display:inline-block;
+  content:"";
+  width:12px;
+  height:2px;
+  background: #ffff;
+  transform: rotate(-45deg);
+  position:absolute;
+  right:-1px;
+  bottom:-4px;
+}
+
+@media only screen and (min-width:777px){
+  .container{
+    width:600px;
+    height:300px;
+    left:50%;
+  }
+  img{
+    width:300px;
+    height:300px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    object-fit: cover;
+  }
+  .btn-container{
+    width:700px;
+    left:58%;
+  }
+}
+@media only screen and (max-width:775px){
+  .container{
+    width:450px;
+    height:250px;
+    left:50%;
+  }
+  img{
+    width:225px;
+    height:250px;
+  }
+  .text-cont{
+    margin:34px auto;
+    padding:12px 20px;
+    font-size:12px;
+  }
+  .btn-container{
+    width:450px;
+    top:85%;
+  }
+  .weebly{
+    padding:10px 16px;
+    margin:16px 10px;
+  }
+  .tesla{
+    padding:10px 16px;
+    margin:16px 0px;
+  }
+  .tnw{
+    padding:16px 18px;
+    margin-top: 12px;
+  }
+  .cpanel{
+    background: #f9faff;
+    padding:8px 16px;
+    margin:18px 0px;
+    border-radius: 3px;
+  }
+  .view{
+    padding:5px 30px;
+    margin:16px 10px;
+  }
+  .arrow{
+    top:56px;
+    right:20px;
+  }
+}
+
+@media only screen and (max-width:506px){
+  .container{
+    width:330px;
+    height:200px;
+    left:55%;
+  }
+  img{
+    width:165px;
+    height:200px;
+  }
+  .text-cont{
+    margin:20px auto;
+    padding:12px 20px;
+    font-size:9px;
+  }
+  .btn-container{
+    width:360px;
+    top:82%
+  }
+  .weebly{
+    padding:10px 6px;
+    margin:20px 10px;
+  }
+  .tesla{
+    padding:10px 6px;
+    margin:20px 0px;
+  }
+  .tnw{
+    padding:14px 9px;
+    margin-top: 12px;
+  }
+  .cpanel{
+    background: #f9faff;
+    padding:10px 6px;
+    margin:20px 0px;
+    border-radius: 3px;
+  }
+  .view{
+    padding:5px 22px;
+    margin:16px 4px;
+  }
+  .arrow{
+    top:56px;
+    right:20px;
+  }
+
+}
